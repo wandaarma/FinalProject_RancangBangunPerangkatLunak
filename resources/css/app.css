@@ -1,0 +1,108 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.form-register {
+    font-family: Poppins;
+    font-weight: Regular;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 110px;
+    color: #333;
+}
+
+.form-login {
+    font-family: Poppins;
+    font-weight: Regular;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    color: #333;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 420px;
+    height: 62px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.textsignup {
+    margin-bottom: 20px;
+    font-weight: medium;
+    font-size: 30px;
+    color: #262626;
+    padding-left: 0px;
+}
+
+.textlogin {
+    margin-bottom: 20px;
+    font-weight: medium;
+    font-size: 30px;
+    color: #262626;
+    padding-left: 0px;
+}
+
+.textforgot {
+    font-weight: medium;
+    font-size: 30px;
+    color: #262626;
+    padding-left: 0px;
+    line-height: 45px;
+}
+
+.textforgot1 {
+    font-weight: medium;
+    font-size: 18px;
+    color: #262626;
+    padding-left: 0px;
+    line-height: 28px;
+}
+
+
+.form-right {
+    position: absolute;
+    background: linear-gradient(to bottom, #e8f9dc, #ffecd9);
+    padding: 20px;
+    width: 100%;
+    height: 810px;
+}
+
+.form-left {
+    padding: 150px 75px 75px 130px;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-block {
+    display: inline-block;
+    padding: 150px;
+    height: 62px;
+  }
+
+.logo {
+    position: absolute;
+    width: 96px;
+    height: 51px;
+    left: 49px;
+    top: 21px;
+}
+
+.thetask {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 79px;
+    top: 200px;
+
+}
+
+.ket {
+    font-weight: regular;
+    font-size: 13px;
+    color: #262626;
+    padding-left: 80px;
+  }

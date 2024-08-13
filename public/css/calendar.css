@@ -1,0 +1,306 @@
+/*
+  *
+  * ==========================================
+  * TEMPLATE 1
+  * ==========================================
+  *
+  */
+
+.template1 {
+  position: absolute;
+  width: 1440px;
+  height: 810px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, rgba(232, 249, 220, 0.8) 0%, rgba(255, 236, 217, 0.8) 88.54%);
+}
+
+/*
+  * HEADER
+  */
+
+.template1 .header {
+  position: absolute;
+  font-family: 'Poppins';
+  width: 1440px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+}
+
+
+.template1 .header .logo {
+  position: absolute;
+  width: 96px;
+  height: 51px;
+  left: 99px;
+  top: 9px;
+}
+
+
+.template1 .header .home {
+  position: absolute;
+  width: 71px;
+  height: 24px;
+  left: 287px;
+  top: 23px;
+}
+
+
+.template1 .header .hometext {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 10px;
+  color: rgba(133, 133, 133, 0.7);
+  background: #FFFFFF;
+  border-radius: 13.5px;
+}
+
+
+.template1 .header .dropdown {
+  position: absolute;
+  width: 107.59px;
+  height: 24px;
+  left: 384px;
+  top: 16px;
+}
+
+
+.template1 .header .dropdown-toggle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #989898;
+}
+
+
+.template1 .header .bell {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 1227px;
+  top: 14px;
+}
+
+
+.template1 .header .profil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  width: 106px;
+  height: 40px;
+  left: 1260px;
+  top: 12.5px;
+}
+
+
+.template1 .header .search .form-control {
+  position: absolute;
+  width: 555px;
+  height: 40px;
+  left: 576px;
+  top: 12px;
+  background: rgba(254, 253, 254, 0.5);
+  border-radius: 40px;
+}
+
+
+/*
+  * VERTICAL NAVBAR
+  */
+
+
+.template1 .vertical-nav {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 22px;
+  position: absolute;
+  width: 203px;
+  left: 26px;
+  top: 101px;
+}
+
+
+.template1 .nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 0px 4px 5px;
+  margin-top: 10px;
+  gap: 12px;
+  width: 203px;
+  height: 39px;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.template1 .nav-link {
+  width: 150px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #989898;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.template1 .nav-link .fa-solid {
+  margin-right: 8px;
+}
+
+
+.template1 .nav-link .fa-regular {
+  margin-right: 8px;
+}
+
+
+.template1 .nav-item .active {
+  padding-top: 5px;
+  margin-top: 9px;
+  width: 203px;
+  height: 35px;
+  background: #FFFFFF;
+}
+
+
+.template1 .nav-link .active {
+  width: 91px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #91A085;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.template1 .vertical-nav .linenav {
+  width: 210px;
+  height: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1.01829px dashed #E0E0E0;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+
+/*
+  * MAIN
+  */
+
+
+.template1 .main1 {
+  position: absolute;
+  width: 1175px;
+  height: 745px;
+  left: 265px;
+  top: 65px;
+}
+
+
+.template1 .main2 {
+  position: absolute;
+  width: 1175px;
+  height: 745px;
+  left: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 30px 0px 0px 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+
+
+  color: #121212;
+
+
+}
+
+
+/* Stil untuk mengatur lebar kartu dan margin antar kartu */
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+/* Stil untuk membuat tombol prev/next pada header kartu menjadi lebih kecil */
+.card-header button {
+
+
+  padding: 0;
+}
+
+
+/* Stil untuk membuat bulan pada header kartu menjadi lebih tebal */
+.card-header h5 {
+  font-weight: bold;
+}
+
+
+/* Stil untuk memberikan padding di dalam sel tabel pada small calendar */
+.table.small-calendar td,
+.table.small-calendar th {
+  padding: 6px;
+  font-size: 12px;
+
+
+}
+
+
+/* Stil untuk memberikan padding di dalam sel tabel pada detailed calendar */
+.table.detailed-calendar td,
+.table.detailed-calendar th {
+  padding: 2rem;
+  font-size: 15px;
+}
+
+
+
+
+
+
+/* Stil untuk menyorot tanggal saat ini pada small calendar */
+.stoday {
+  background: #e3f1ff;
+  border-radius: 99px;
+  font-weight: bold;
+}
+
+
+/* Stil untuk menyorot tanggal saat ini pada detailed calendar */
+.today {
+  background-color: #e3f1ff;
+  font-weight: bold;
+
+}
+
+/* Stil untuk memberikan warna latar belakang pada hari Sabtu dan Minggu */
+.table.small-calendar tbody td:nth-child(7),
+.table.small-calendar tbody td:nth-child(1) {
+  background-color: #dfdfdf;
+
+
+}
